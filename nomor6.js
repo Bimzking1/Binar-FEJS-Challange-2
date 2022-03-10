@@ -27,7 +27,8 @@ Kriteria function:
 
 // Pseudocode:
     // 1. Buat sebuah function dengan satu parameter yang memiliki return value.
-    // 2. Urutkan parameter dengan function sort() secara ascending khusus tipe data number dengan format parameter.sort((a,b)=>a-b). Kemudian keluarkan nilai terbesar (index paling belakang) dengan pop().
+    // 2. Urutkan parameter dengan function sort() secara ascending khusus tipe data number dengan format parameter.sort((a,b)=>a-b). 
+    //    Kemudian keluarkan nilai terbesar (index paling belakang) dengan pop().
     // 3. Lakukan kembali langkah nomor 2 dan return hasil sorting.
 
     const dataAngka = [9,4,7,7,4,3,2,2,8];

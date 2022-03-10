@@ -64,10 +64,10 @@ function hitungTotalPenjualan(dataPenjualan) {
     }, { 
         totalTemp: 0
     });
-    return totalSepatuTerjual;
+    return totalSepatuTerjual.totalTemp;
 }
 
-console.log(hitungTotalPenjualan(dataPenjualanPakAldi));    // Output: { totalTemp: 307 }
+console.log(hitungTotalPenjualan(dataPenjualanPakAldi));    // Output: 307
 
 // EXPECTED OUTPUT => 307
 // 307 dari mana? dari setiap value property 'totalTerjual', yaitu 90 + 37 + 90 + 90
